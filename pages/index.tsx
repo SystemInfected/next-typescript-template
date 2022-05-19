@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Start.module.scss'
 
-export default function Start() {
+const Start = () => {
 	return (
 		<div className={styles.container}>
 			<Head>
@@ -11,3 +11,5 @@ export default function Start() {
 		</div>
 	)
 }
+
+export default Start
